@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.cache/
+*.log
+venv
+
+# Environment + Secrets
+.env
+.env.*
+*.env
+
+# Streamlit cache and secrets
+.streamlit/secrets.toml
+.streamlit/config.toml
+.streamlit/*.lock
+.streamlit/*.json
+
+# Jupyter (if used)
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Temporary image or media files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.mp4
+*.avi
+*.mov
+
+# Temp image files created during blog upload
+temp_img_*.png
+temp_img_*.jpg
+temp_img_*.jpeg
+
+# OS-specific
+*.swp
+*.swo
+
+# PIP dependency lock file (optional)
+poetry.lock
+Pipfile.lock
+
+# Node/React (if later used for frontend)
+node_modules/
+npm-debug.log*
+
+# __pycache__ folders inside all subdirectories
+**/__pycache__/
