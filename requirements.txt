@@ -1,4 +1,14 @@
+# Core Framework
 streamlit>=1.30.0
+
+# API and HTTP Requests
 requests>=2.31.0
+
+# Environment Variables Management
 python-dotenv>=1.0.0
-Pillow>=10.0.0 
+
+# Image Processing
+Pillow>=10.0.0
+
+# Additional Dependencies
+urllib3>=2.0.0
